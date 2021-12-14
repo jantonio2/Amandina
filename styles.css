@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --primary: #2c7017;
+  --secundary: #55BF35;
+  --orange: #F2CDAA;
+  --titles: #DC8231;
+}
+
+body {
+  font-family: 'Libre Baskerville';
+}
+
+.nav {
+  background-color: var(--primary);
+  font-size: 20px;
+  height: 150px;
+}
+
+.logo {
+  width: 250px;
+}
+
+
+.main-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.home-container {
+  align-items: center;
+  background-color: var(--secundary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 70px;
+  position: relative;
+  width: 95%;
+}
+
+.home-container h1 {
+  color: azure;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+.card-home {
+  align-items: center;
+  background-color: azure;
+  border-radius: 15px;
+  box-shadow: 10px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.card-home img {
+  width: 120px;
+}
+
+.card-home h3 {
+  font-weight: bold;
+}
+
+.card-home p {
+  margin: 6px;
+}
+
+.store-container {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 50px;
+  width: 95%;
+}
+
+.store-description {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
+}
+
+.atributo img {
+  height: 70px;
+  width: 70px;
+}
+
+.atributo {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.atributo a {
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content h3 {
+  font-weight: bold;
+}
+
+.content p {
+  padding: 10px;
+}
+
+.carou {
+  padding: 50px;
+  width: 95%;
+}
+
+#carouselExampleControls {
+  position: relative;
+}
+
+#carousel .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  height: 100%;
+  width: 95%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
